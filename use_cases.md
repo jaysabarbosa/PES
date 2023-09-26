@@ -180,13 +180,13 @@
 4. O professor informa a quantidade de vagas
 5. O professor se autentica novamente para confirmar a operação
 6. Sistema faz uma nova autenticação do professor (sublinhado)
-7. Sistema verifica a disponibilidade do horário (sublinhado)
+7. Sistema verifica a disponibilidade do horário a partir do local informado (sublinhado)
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 * 5a - Se as credenciais estiverem erradas, informar erro
 * 6a - Se não for possível fazer autenticação, retornar erro
-* 7a - Se o horário não estiver disponível, pedir para inserir um novo horário
+* 7a - Se o horário não estiver disponível, pedir para inserir um novo horário ou um novo local
 
 </br>
 
