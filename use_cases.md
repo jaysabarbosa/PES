@@ -172,7 +172,7 @@
 
 </br>
 
-### Abrir turma
+### Cadastrar nova turma
 **Fluxo normal:**
 1. Sistema verifica se o professor está autenticado (sublinhado)
 2. O professor informa o local das aulas
@@ -188,7 +188,7 @@
 
 </br>
 
-### Fechar turma
+### Fechar turma existente
 **Fluxo normal:**
 1. Sistema verifica se o professor está autenticado (sublinhado)
 2. O professor informa a turma
