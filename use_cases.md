@@ -180,11 +180,13 @@
 4. O professor informa a quantidade de vagas
 5. O professor se autentica novamente para confirmar a operação
 6. Sistema faz uma nova autenticação do professor (sublinhado)
+7. Sistema verifica a disponibilidade do horário (sublinhado)
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 * 5a - Se as credenciais estiverem erradas, informar erro
 * 6a - Se não for possível fazer autenticação, retornar erro
+* 7a - Se o horário não estiver disponível, pedir para inserir um novo horário
 
 </br>
 
@@ -249,7 +251,7 @@
 
 </br>
 
-### Verificar disponibiliade de horário
+### Verificar disponibiliade de horário a partir de um local
 **Fluxo normal:**
 1. Busca pelo local do esporte
 2. verifica se o local está sendo utilizado naquele horário
