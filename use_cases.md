@@ -81,7 +81,7 @@
 ### Visualizar turmas
 **Fluxo normal:**
 1. Sistema verifica se o aluno está autenticado (sublinhado)
-2. O aluno possui acesso às turmas cadastradas no sistema. Nas turmas que ele está matriculado, ele possui acesso ao horário e local que as aulas acontecem, aos participantes da turma e às faltas relacionadas àquele esporte. Além dessas coisas, também é possível visualizar o histórico das turmas que ele participou
+2. O aluno possui acesso às turmas cadastradas no sistema. Nas turmas que ele está matriculado, ele possui acesso ao horário e local que as aulas acontecem, aos participantes da turma e às faltas relacionadas àquele esporte. Além dessas coisas, também é possível visualizar um histórico contendo as turmas que ele já participou
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
@@ -141,7 +141,7 @@
 ### Visualizar turmas e informações dos usuários
 **Fluxo normal:**
 1. Sistema verifica se o administrador está autenticado (sublinhado)
-2. O administrador possui acesso à todas turmas cadastradas no sistema, assim como os horários e locais de aula dessas turmas, os participantes de cada esporte e às faltas de todos os alunos referente a um determinado esporte. Ele também consegue visualizar as informações de cadastro - incluindo o atestado de aptidão física - de todos os usuários, incluindo professores. Além dessas coisas, também é possível visualizar o histórico de todas as já turmas cadastradas no sistema, assim como a sua exclusão
+2. O administrador possui acesso à todas turmas cadastradas no sistema, assim como os horários e locais de aula dessas turmas, os participantes de cada esporte e às faltas de todos os alunos referente a um determinado esporte. Ele também consegue visualizar as informações de cadastro - incluindo o atestado de aptidão física - de todos os usuários, incluindo professores. Além dessas coisas, também é possível visualizar um histórico contendo todas as turmas cadastradas no sistema, assim como a exclusão dela, caso tenha ocorrido
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
@@ -224,7 +224,7 @@
 ### Visualizar turmas e informações dos alunos
 **Fluxo normal:**
 1. Sistema verifica se o professor está autenticado (sublinhado)
-2. O professor possui acesso à todas turmas cadastradas no sistema. Ele têm acesso aos participantes e à presença de todos seus   os alunos. Ele também consegue visualizar as informações de cadastro - incluindo o atestado de aptidão física - de todos os seus alunos. Além dessas coisas, também é possível visualizar o histórico das turmas que ele deu aula, assim como a exclusão delas
+2. O professor possui acesso à todas turmas cadastradas no sistema. Ele têm acesso aos participantes e à presença de todos seus   os alunos. Ele também consegue visualizar as informações de cadastro - incluindo o atestado de aptidão física - de todos os seus alunos. Além dessas coisas, também é possível visualizar um histórico contendo as turmas que ele deu aula, assim como a exclusão delas, caso tenha ocorrido
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
