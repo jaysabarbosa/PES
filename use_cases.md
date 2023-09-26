@@ -50,17 +50,20 @@
 **Fluxo normal:**
 1. Sistema verifica se o aluno está autenticado (sublinhado)
 2. Aluno acessa o informativo com as turmas disponíveis
-3. Aluno solicita a matrícula em uma turma com vagas
+3. Aluno solicita a matrícula em uma turma
 4. Sistema verifica a situação do atestado de aptidão física
+5. A matrícula é realizada por ordem de solicitação
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 * 4a - Se não houver atestado cadastro, pedir para cadastrar
 * 4b - Se fizer mais de um ano que atestado foi cadastrado, pedir para cadastrar novamente
+* 5a - Se não houver vagas, o aluno fica na lista de espera
+* 5b - Se estiver na fila de espera e surgir vaga, o aluno é maticulado automaticamente
 
 </br>
 
-### Cancelar matrícula em esporte
+### Desmatricular em esporte
 **Fluxo normal:**
 1. Sistema verifica se o aluno está autenticado (sublinhado)
 2. Aluno entra na turma que está matriculado
@@ -78,7 +81,7 @@
 ### Visualizar turmas
 **Fluxo normal:**
 1. Sistema verifica se o aluno está autenticado (sublinhado)
-2. O aluno possui acesso às turmas cadastradas no sistema. Nas turmas que ele está matriculado, ele possui acesso ao horário e local que as aulas acontecem, aos participantes da turma e às faltas relacionadas àquele esporte
+2. O aluno possui acesso às turmas cadastradas no sistema. Nas turmas que ele está matriculado, ele possui acesso ao horário e local que as aulas acontecem, aos participantes da turma e às faltas relacionadas àquele esporte. Além dessas coisas, também é possível visualizar o histórico das turmas que ele participou
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
@@ -138,14 +141,13 @@
 ### Visualizar turmas e informações dos usuários
 **Fluxo normal:**
 1. Sistema verifica se o administrador está autenticado (sublinhado)
-2. O administrador possui acesso à todas turmas cadastradas no sistema, assim como os horários e locais de aula dessas turmas, os participantes de cada esporte e às faltas de todos os alunos referente a um determinado esporte. Ele também consegue visualizar as informações de cadastro - incluindo o atestado de aptidão física - de todos os usuários, incluindo professores.
+2. O administrador possui acesso à todas turmas cadastradas no sistema, assim como os horários e locais de aula dessas turmas, os participantes de cada esporte e às faltas de todos os alunos referente a um determinado esporte. Ele também consegue visualizar as informações de cadastro - incluindo o atestado de aptidão física - de todos os usuários, incluindo professores. Além dessas coisas, também é possível visualizar o histórico de todas as já turmas cadastradas no sistema, assim como a sua exclusão
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 
 </br>
 </br>
-
 
 ## Professor
 
@@ -164,11 +166,14 @@
 **Fluxo normal:**
 1. Sistema verifica se o administrador está autenticado (sublinhado)
 2. Professor acessa uma das suas turmas
-3. Professor acessar a lista de presença
-4. Professor faz a chamada
+3. Professor escolhe uma data menor ou igual a do dia atual
+4. Professor acessa a lista de presença
+5. Professor faz a chamada
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
+* 3a - Se a data escolhida for maior que a do dia atual, pedir para escolher uma data válida
+* 5a - Se o aluno tiver mais de 30% de faltas referente à quantidade total de aulas planejadas, ele é desmatriculado automaticamente
 
 </br>
 
@@ -219,7 +224,7 @@
 ### Visualizar turmas e informações dos alunos
 **Fluxo normal:**
 1. Sistema verifica se o professor está autenticado (sublinhado)
-2. O professor possui acesso à todas turmas cadastradas no sistema. Ele têm acesso aos participantes e à presença de todos seus   os alunos. Ele também consegue visualizar as informações de cadastro - incluindo o atestado de aptidão física - de todos os seus alunos.
+2. O professor possui acesso à todas turmas cadastradas no sistema. Ele têm acesso aos participantes e à presença de todos seus   os alunos. Ele também consegue visualizar as informações de cadastro - incluindo o atestado de aptidão física - de todos os seus alunos. Além dessas coisas, também é possível visualizar o histórico das turmas que ele deu aula, assim como a exclusão delas
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
@@ -247,7 +252,7 @@
 
 **Extensões:**
 * 1a - Se o token não existir, retornar erro
-* 2a - Se o token for inválido, retornar erro
+* 1b - Se o token for inválido, retornar erro
 
 </br>
 
