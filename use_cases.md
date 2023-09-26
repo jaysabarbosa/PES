@@ -239,7 +239,7 @@
 
 </br>
 
-### Validar autenticação
+### Verificar autenticação
 **Fluxo normal:**
 1. Verifica se o token é válido
 
