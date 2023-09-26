@@ -194,6 +194,7 @@
 2. O professor informa a turma
 3. O professor se autentica novamente para confirmar a operação
 4. Sistema faz uma nova autenticação do professor (sublinhado)
+5. Todos os alunos deixam de estar matriculados na turma
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
