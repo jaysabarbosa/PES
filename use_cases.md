@@ -11,16 +11,14 @@
 3. Informar e-mail
 4. Informar data de nascimento
 5. Informar senha
-6. Informar matrícula da UFRN
-7. Sistema vefirica se as informações são condizentes
+6. Sistema vefirica se as informações são condizentes
 
 **Extensões:**
 * 2a - Se o CPF for inválido, pedir novo CPF
 * 3a - Se o e-mail for inválido, pedir novo e-mail
 * 5a - Se a senha for inválida, pedir nova senha
-* 6a - Se a matrícula for inválida, pedir nova matrícula
-* 7a - Se as informações não existirem na base de dados, retornar erro
-* 7b - Se as informações não forem referentes a uma mesma pessoa, retornar erro
+* 6a - Se as informações não existirem na base de dados, retornar erro
+* 6b - Se as informações não forem referentes a uma mesma pessoa, retornar erro
 
 </br>
 
@@ -109,20 +107,18 @@
 4. Informar e-mail
 5. Informar data de nascimento
 6. Informar senha
-7. Informar matrícula da UFRN
-8. Informar se é um professor ou um administrador
-9. O administrador se autentica novamente para confirmar a operação
-10. Sistema faz uma nova autenticação do administrador (sublinhado)
+7. Informar se é um professor ou um administrador
+8. O administrador se autentica novamente para confirmar a operação
+9. Sistema faz uma nova autenticação do administrador (sublinhado)
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 * 3a - Se o CPF for inválido, pedir novo CPF
 * 4a - Se o e-mail for inválido, pedir novo e-mail
 * 6a - Se a senha for inválida, pedir nova senha
-* 7a - Se a matrícula for inválida, pedir nova matrícula
-* 9a - Se as credenciais estiverem erradas, informar erro
-* 10a - Se não for possível fazer autenticação, retornar erro
-* 10b - Se as informações não forem referentes a uma mesma pessoa, retornar erro
+* 8a - Se as credenciais estiverem erradas, informar erro
+* 9a - Se não for possível fazer autenticação, retornar erro
+* 9b - Se as informações não forem referentes a uma mesma pessoa, retornar erro
 
 </br>
 
