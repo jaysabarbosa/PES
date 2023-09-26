@@ -22,6 +22,7 @@
 * 7a - Se as informações não existirem na base de dados, retornar erro
 * 7b - Se as informações não forem referentes a uma mesma pessoa, retornar erro
 
+</br>
 
 ### Fazer login
 **Fluxo normal:**
@@ -32,6 +33,7 @@
 **Extensões:**
 * 3a - Se houver erro na autenticação, devolver erro
 
+</br>
 
 ### Enviar atestado de aptidão física
 **Fluxo normal:**
@@ -44,6 +46,7 @@
 * 2a - Se estiver válido, retornar mensagem que a ação é desnecessária
 * 3a - Se o documento passar do tamanho aceito, informar erro
 
+</br>
 
 ### Matricular em esporte
 **Fluxo normal:**
@@ -57,6 +60,7 @@
 * 4a - Se não houver atestado cadastro, pedir para cadastrar
 * 4b - Se fizer mais de um ano que atestado foi cadastrado, pedir para cadastrar novamente
 
+</br>
 
 ### Cancelar matrícula em esporte
 **Fluxo normal:**
@@ -70,7 +74,8 @@
 * 1a - Se não estiver autenticado, pedir autenticação
 * 4a - Se as credenciais estiverem erradas, retornar erro
 * 5a - Se não for possível fazer autenticação, retornar erro
-  
+
+</br>
 
 ### Visualizar turmas
 **Fluxo normal:**
@@ -80,8 +85,8 @@
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 
-
-
+</br>
+</br>
 
 ## Administrador
 
@@ -94,6 +99,7 @@
 **Extensões:**
 * 3a - Se houver erro na autenticação, devolver erro
 
+</br>
 
 ### Cadastrar funcionário
 **Fluxo normal:**
@@ -118,6 +124,7 @@
 * 10a - Se não for possível fazer autenticação, retornar erro
 * 10b - Se as informações não forem referentes a uma mesma pessoa, retornar erro
 
+</br>
 
 ### Validar atestado de aptidão física
 **Fluxo normal:**
@@ -130,6 +137,7 @@
 * 1a - Se não estiver autenticado, pedir autenticação
 * 3a - Se o atestado não for válido, informar irregularidade
 
+</br>
 
 ### Visualizar turmas e informações dos usuários
 **Fluxo normal:**
@@ -139,7 +147,8 @@
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 
-
+</br>
+</br>
 
 
 ## Professor
@@ -153,6 +162,7 @@
 **Extensões:**
 * 3a - Se houver erro na autenticação, retornar erro
 
+</br>
 
 ### Cadastrar presença
 **Fluxo normal:**
@@ -163,7 +173,8 @@
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
-  
+
+</br>
 
 ### Abrir turma
 **Fluxo normal:**
@@ -179,6 +190,7 @@
 * 5a - Se as credenciais estiverem erradas, informar erro
 * 6a - Se não for possível fazer autenticação, retornar erro
 
+</br>
 
 ### Fechar turma
 **Fluxo normal:**
@@ -192,6 +204,7 @@
 * 3a - Se as credenciais estiverem erradas, informar erro
 * 4a - Se não for possível fazer autenticação, retornar erro
 
+</br>
 
 ### Cadastrar notícia
 **Fluxo normal:**
@@ -202,6 +215,7 @@
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 
+</br>
 
 ### Visualizar turmas e informações dos alunos
 **Fluxo normal:**
@@ -211,8 +225,8 @@
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
 
-
-
+</br>
+</br>
 
 ## Sistema
 
@@ -226,6 +240,7 @@
 * 1a - Se o e-mail ou CPF informado não esteja registrado, retornar erro
 * 2b - Se a senha for diferente daquela estabelecida no cadastrado para o e-mail ou CPF informado, retornar erro
 
+</br>
 
 ### Validar autenticação
 **Fluxo normal:**
@@ -235,6 +250,7 @@
 * 1a - Se o token não existir, retornar erro
 * 2a - Se o token for inválido, retornar erro
 
+</br>
 
 ### Verificar disponibiliade de horário
 **Fluxo normal:**
