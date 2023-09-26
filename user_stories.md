@@ -9,6 +9,7 @@
 * Como aluno, eu gostaria de visualizar os integrantes das turmas que estou matriculado
 * Como aluno, eu gostaria de visualizar o local e horário da aula das turmas que estou matriculado
 * Como aluno, eu gostaria de visualizar as minhas faltas em cada esporte
+* Como aluno, eu gostaria de visualizar um histórico contendo as turmas que já participei
 
 </br>
 
@@ -21,6 +22,7 @@
 * Como administrador, eu gostaria de visualizar as faltas de cada aluno em um determinado esporte
 * Como administrador, eu gostaria de visualizar os dados de cadastro de todos os usuários
 * Como administrador, eu gostaria de visualizar o atestado de aptidão física de todos os alunos
+* Como administrador, eu gostaria de visualizar um histórico contendo todas as turmas cadastradas no sistema, assim como a exclusão dela, caso tenha ocorrido
 
 </br>
 
@@ -34,6 +36,7 @@
 * Como professor, eu gostaria de visualizar a presença de todos os meu alunos
 * Como professor, eu gostaria de visualizar as informações de cadastro de todos os meus alunos
 * Como professor, eu gostaria de visualizar o teste de aptidão física de todos os meus alunos
+* Como professor, eu gostaria de visualizar um histórico contendo as turmas que já dei aula, assim como a exclusão delas, caso tenha ocorrido
 
 </br>
 
