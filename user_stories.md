@@ -35,7 +35,7 @@
 * Como professor, eu gostaria de visualizar todos os participantes das turmas que eu dou aula
 * Como professor, eu gostaria de visualizar a presença de todos os meu alunos
 * Como professor, eu gostaria de visualizar as informações de cadastro de todos os meus alunos
-* Como professor, eu gostaria de visualizar o teste de aptidão física de todos os meus alunos
+* Como professor, eu gostaria de visualizar o atestado de aptidão física de todos os meus alunos
 * Como professor, eu gostaria de visualizar um histórico contendo as turmas que já dei aula, assim como a exclusão delas, caso tenha ocorrido
 
 </br>
