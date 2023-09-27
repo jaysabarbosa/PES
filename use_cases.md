@@ -54,8 +54,7 @@
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
-* 4a - Se não houver atestado cadastrado, pedir para cadastrar
-* 4b - Se fizer mais de um ano que atestado foi cadastrado, pedir para cadastrar novamente
+* 4a - Se não for válido, informar erro e pedir para cadastrar um novo atestado
 * 5a - Se não houver vagas, o aluno fica na lista de espera
 * 5b - Se estiver na fila de espera e surgir vaga, o aluno é maticulado automaticamente
 
