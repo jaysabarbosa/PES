@@ -267,11 +267,12 @@
 
 </br>
 
-### Verificar atestado de aptidão física
+### Verificar situação do atestado de aptidão física
 **Fluxo normal:**
 1. Verifica se existe atestado cadastrado
 2. Verifica se o atestado foi cadastrado há mais de 1 ano
+3. Retorna que o atestado é válido
 
 **Extensões:**
-* 1a - Se não houver atestado, retornar erro
-* 2a - Se o atestado foi cadastrado há mais de 1 ano, retornar erro
+* 1a - Se não houver atestado, retornar que o atestado é inválido
+* 2a - Se o atestado foi cadastrado há mais de 1 ano, retornar que o atestado é inválido
