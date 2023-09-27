@@ -43,3 +43,4 @@
 * Como sistema, eu posso autenticar um usuário
 * Como sistema, eu posso verificar se um usuário está autenticado
 * Como sistema, eu posso verificar a disponibilidade de horário a partir de um determinado local
+* Como sistema, eu posso verificar o status do atestado de aptidão física
