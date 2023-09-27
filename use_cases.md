@@ -51,7 +51,7 @@
 1. Sistema verifica se o aluno está autenticado (sublinhado)
 2. Aluno acessa o informativo com as turmas disponíveis
 3. Aluno solicita a matrícula em uma turma
-4. Sistema verifica a situação do atestado de aptidão física
+4. Sistema verifica a situação do atestado de aptidão física (sublinhado)
 5. A matrícula é realizada por ordem de solicitação
 
 **Extensões:**
@@ -68,7 +68,7 @@
 1. Sistema verifica se o aluno está autenticado (sublinhado)
 2. Aluno entra na turma que está matriculado
 3. Aluno pede para cancelar a matrícula
-4. Aluno se autentica novamente para confirmar a operação
+4. Aluno se autentica novamente para confirmar a operação 
 5. Sistema faz uma nova autenticação do aluno (sublinhado)
 
 **Extensões:**
@@ -256,7 +256,7 @@
 
 </br>
 
-### Verificar disponibiliade de horário a partir de um local
+### Verificar disponibilidade de horário a partir de um local
 **Fluxo normal:**
 1. Busca pelo local do esporte
 2. verifica se o local está sendo utilizado naquele horário
@@ -264,3 +264,14 @@
 **Extensões:**
 * 1a - Se o local não existir, retornar erro
 * 2a - Se o local estiver em uso no horário informado, retornar erro
+
+</br>
+
+### Verificar atestado de aptidão física
+**Fluxo normal:**
+1. Verifica se existe atestado cadastrado
+2. Verifica se o atestado foi cadastrado há mais de 1 ano
+
+**Extensões:**
+* 1a - Se não houver atestado, retornar erro
+* 2a - Se o atestado foi cadastrado há mais de 1 ano, retornar erro
