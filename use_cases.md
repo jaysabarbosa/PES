@@ -36,13 +36,11 @@
 ### Enviar atestado de aptidão física
 **Fluxo normal:**
 1. Sistema verifica se o aluno está autenticado (sublinhado)
-2. Sistema verifica a situação do atestado de aptidão física
-3. Aluno seleciona o documento a ser enviado
+2. Aluno seleciona o documento a ser enviado
 
 **Extensões:**
 * 1a - Se não estiver autenticado, pedir autenticação
-* 2a - Se estiver válido, retornar mensagem que a ação é desnecessária
-* 3a - Se o documento passar do tamanho aceito, informar erro
+* 2a - Se o documento passar do tamanho aceito, informar erro
 
 </br>
 
